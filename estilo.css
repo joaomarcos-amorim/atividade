@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(to right, rgb(177, 13, 177), rgb(14, 2, 12));
+    color:white;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.imagem-centralizada{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 5%;
+}
+.imagem-botao{
+    width: 200px;
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.imagem-botao-1{
+    width: 500px;
+    max-width: 500px;
+    aspect-ratio: 16/9;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.imagem-botao:hover {
+    transform: scale(1.05);
+}
+.imagem-botao-1:hover {
+    transform: scale(1.05);
+}
+h2{
+    text-align: center;
+    padding-top: 50px;
+}
+p{
+    font-size: 150%;
+    margin-bottom: 10%;
+}
+jogo1{
+    background-image: url();
+}
